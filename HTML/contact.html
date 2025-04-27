@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Justice Hyman, IS117-002, Spring 2025 -->
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Page</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+	<header>
+        <div class="d-flex justify-content-center align-items-center bg-black logo">
+            <a href="../index.html" class="text-white text-decoration-none  display-4 h4 m-0">SkateBoarding Inc.</a>
+        </div>
+		<nav class="navbar navbar-expand-md justify-content-start bg-black navbar-dark col-12">
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                <span class="ms-2 text-white">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="../HTML/Tricks.html">Tricks</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="../HTML/Maintence.html" id="navbardrop">
+                                Maintenance
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="../HTML/Tools.html">Tools/Gear</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../HTML/contact.html">Contact</a>
+                        </li>
+                        
+                </ul>
+            </div>
+        </nav>
+	</header>
+
+	<main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" class="form-control" id="firstname"
+                                       placeholder="First name" name="firstname">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastname">Last Name:</label>
+                                <input type="text" class="form-control" id="lastname"
+                                   placeholder="Last name" name="lastname">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email"
+                                   placeholder="Enter email" name="email">
+                            </div>
+                            <div class="form-group form-check">
+                                <label class="form-check-label">
+                                    <input class="form-check-input"
+                                           type="checkbox" name="subscribe"> Subscribe
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+	</main>
+
+	<footer class="footer page-footer font-small">
+		<div class="container">
+			<div class="row">
+				<span>&copy; Justice Hyman, 2025 |  Terms Of Use  |  Privacy Statement</span>
+			</div>
+		</div>
+</footer>
+<script src="../js/bootstrap.bundle.min.js">
+</script>
+</body>
+
+</html>

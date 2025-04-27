@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Justice Hyman, IS117-002, Spring 2025 -->
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<header>
+        <div class="d-flex justify-content-center align-items-center bg-black logo">
+            <a href="index.html" class="text-white text-decoration-none  display-4 h4 m-0">SkateBoarding Inc.</a>
+        </div>
+		<nav class="navbar navbar-expand-md justify-content-start bg-black navbar-dark col-12">
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+                <span class="ms-2 text-white">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="HTML/Tricks.html">Tricks</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="HTML/Maintence.html" id="navbardrop">
+                                Maintenance
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="HTML/Tools.html">Tools/Gear</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="HTML/contact.html">Contact</a>
+                        </li>
+                        
+                </ul>
+            </div>
+        </nav>
+	</header>
+
+	<main class="d-flex justify-content-center align-items-center homeMain">
+		<div class="card">
+            <div class="card-body bg-black">
+                <h5 class="card-title text-center text-white">Welcome to Skateboarding Inc.!</h5>
+                <p class="card-text text-white">
+                    Content developed with the help of ChatGPT, an AI by OpenAI.<br><br>
+                    Skateboarding is more than just a sport; it's a lifestyle and a thriving community. Whether you're picking up a skateboard<br>
+                    for the first time or you're a seasoned rider, our mission is to provide a space where skaters of all skill levels can learn, grow, and connect.<br>
+                    
+                    At Skateboarding Inc., we aim to foster a supportive environment where everyone has the opportunity to flourish. Our goal is to help you enhance your<br> 
+                    skills, take on new challenges, and make the most out of your skateboarding experience. On this site, you'll find a variety of resources designed to help<br>
+                    you succeed:<br><br>
+                    
+                    Skateboard Tricks: Showing the different types of tricks a person can do<br><br>
+                    
+                    Board Maintenance: Learn how to keep your skateboard in top shape with maintenance tips and troubleshooting advice.<br><br>
+                    
+                    Tools & Gear: Explore the essential tools and gear every skater needs to ensure optimal performance and safety.<br><br>
+                    
+                    Join us on this exciting journey — whether you're here to learn, improve, or just connect with fellow skateboarders, there's a place for you in our community. Let's roll!</p>
+            </div>
+        </div>
+	</main>
+
+	<footer class="footer page-footer font-small">
+		<div class="container">
+			<div class="row">
+				<span>&copy; Justice Hyman, 2025 |  Terms Of Use  |  Privacy Statement</span>
+			</div>
+		</div>
+</footer>
+<script src="js/bootstrap.bundle.min.js">
+</script>
+</body>
+
+</html>
